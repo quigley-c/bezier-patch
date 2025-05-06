@@ -21,6 +21,6 @@ struct Position{
 void setup();
 void display();
 void reshape(int, int);
-void projection();
-void DrawCubicSpline();
+void projection(int, int, int);
+//void DrawCubicSpline();
 void DrawBezierSurface();
