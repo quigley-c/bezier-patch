@@ -21,8 +21,8 @@ int main(int argc, char** argv){
     // initializing callbacks
     glutReshapeFunc(reshape);
     glutDisplayFunc(display);
-    //glutMouseFunc(mouse);  // define your own mouse event.
-    //glutMotionFunc(motion);  // define your own motion event, e.g., rotate OBJ model.
+    glutMouseFunc(onMouseButton);
+    //glutMotionFunc(motion);
 
     //Creates Menu on Right Click
     // CreateMenu();

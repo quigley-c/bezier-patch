@@ -22,5 +22,5 @@ void setup();
 void display();
 void reshape(int, int);
 void projection(int, int, int);
-//void DrawCubicSpline();
 void DrawBezierSurface();
+void onMouseButton(int, int, int, int);
